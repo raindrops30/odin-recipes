@@ -1,0 +1,28 @@
+li {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid red;
+    width: 400px;
+}
+
+a {
+    color: white;
+    
+}
+
+li:hover {
+    background-color: grey;
+}
+
+a:hover {
+    color: blue;
+}
+
+li a {
+    transition: all 0.3s ease 0s;
+    /* padding: 100px; */
+}
